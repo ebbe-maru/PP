@@ -1,2 +1,12 @@
+class scope s
+method scope s
 hello 
 world 
+new hello from main
+new hello from main
+the value of pi in Math is 3.14159265358979
+the value of pi in Math is 3.14159265358979
+the value of e in Math is 2.71828182845905
+Sqrt2^2 = 2
+1/2 = 0
+1.0/2 = 0.5
