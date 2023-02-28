@@ -1,8 +1,8 @@
 Out.txt   :   main.exe
 	mono main.exe > Out.txt
 
-#spfun.dll : spfun.cs
-#mcs spfun.cs -target:library -out:spfun.dll
+vec.dll: vec.cs
+	mcs vec.cs -target:library -out:vec.dll
 
-main.exe : main.cs
-	mcs main.cs -target:exe -out:main.exe
+main.exe : main.cs vec.dll
+	mcs main.cs -reference:vec.dll vec.cs -target:exe -out:main.exe
