@@ -39,7 +39,8 @@ public static class main {
         
         WriteLine($"d1={d1:e15}");
         WriteLine($"d2={d2:e15}");
-        WriteLine($"d1==d2 ? => {d1==d2}\n");
+        WriteLine($"d1==d2 ? => {d1==d2}");
+        WriteLine($"d1 approx d2 ? => {approx(d1,d2)}");
     }
     public static void max() {
         int i = 1;

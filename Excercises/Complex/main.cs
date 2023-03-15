@@ -31,7 +31,5 @@ class main {
         WriteLine($"i^i is = {powi}");
         WriteLine($"i^i should be = {powic}");
         WriteLine($"approx equal {powi.approx(powic)}\n");
-        
-
     }
 }

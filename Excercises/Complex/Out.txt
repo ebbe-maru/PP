@@ -11,7 +11,7 @@ sqrt(i) is = 0.707+0.707i
 sqrt(i) should be = 0.707+0.707i
 approx equal True
 
-i^i is = 0.707+0.707i
+i^i is = 0.208+0i
 i^i should be = 0.208+0i
 approx equal True
 
