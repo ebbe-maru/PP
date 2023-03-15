@@ -1,0 +1,17 @@
+-1+0i
+sqrt(-1) is = 6.12e-17+1i
+sqrt(-1) should be = 0+1i or = 0+-1i
+approx equal True
+
+log(i) is = 0+1.57i
+log(i) should be = 0+1.57i
+approx equal True
+
+sqrt(i) is = 0.707+0.707i
+sqrt(i) should be = 0.707+0.707i
+approx equal True
+
+i^i is = 0.707+0.707i
+i^i should be = 0.208+0i
+approx equal True
+
