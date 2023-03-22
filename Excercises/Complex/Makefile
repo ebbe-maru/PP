@@ -1,4 +1,4 @@
-DIR = $(HOME)/pra_pro/PP/matlib/complex
+DIR = $(HOME)/PP/matlib/complex
 
 Out.txt: main.exe
 	mono main.exe > Out.txt
