@@ -1,6 +1,10 @@
 using System;
 using static System.Console;
 using static System.Math;
+using static cmath;
+using static complex;
+
+
 public class spfun {
     public static double Gamma (double x) {
     ///single precision gamma function (formula from Wikipedia)
@@ -9,6 +13,15 @@ public class spfun {
 
         double lnGamma=x*Log(x+1/(12*x-1/x/10))-x+Log(2*PI/x)/2;
         return Exp(lnGamma);
+    }
+
+    public static complex CGamma (complex x) {
+        double abs = magnitude(x);
+        if(abs<0)return PI/sin(PI*x)/CGamma(1-x); // Euler's reflection formula
+        if(abs<9)return CGamma(x+1)/x; // Recurrence relation
+
+        complex lnGamma=x*log(x+1/(12*x-1/x/10))-x+log(2*PI/x)/2;
+        return exp(lnGamma);
     }
 
     

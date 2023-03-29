@@ -136,7 +136,7 @@
 	<path stroke='black'  d='M81.53,54.01 L81.53,413.40 L565.82,413.40 L565.82,54.01 L81.53,54.01 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(19.18,233.71) rotate(270)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" >gamma(x)</tspan></text>
+		<text><tspan font-family="Arial" >Exp(lngamma(x))</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -146,14 +146,14 @@
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
-	<g id="gnuplot_plot_1" ><title>Gamma(n+1)</title>
+	<g id="gnuplot_plot_1" ><title>Exp(lnGamma(n+1))</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(173.82,381.30)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="Arial" >Gamma(n+1)</tspan></text>
+	<g transform="translate(232.55,381.30)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="Arial" >Exp(lnGamma(n+1))</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M182.21,377.40 L224.77,377.40 M81.53,412.95 L88.45,412.97 L95.37,412.99 L102.29,413.00 L109.20,413.00 L116.12,413.00
+	<path stroke='rgb(148,   0, 211)'  d='M240.94,377.40 L283.50,377.40 M81.53,412.95 L88.45,412.97 L95.37,412.99 L102.29,413.00 L109.20,413.00 L116.12,413.00
 		L123.04,413.00 L129.96,412.99 L136.88,412.98 L143.80,412.97 L150.71,412.95 L157.63,412.93 L164.55,412.91 L171.47,412.88
 		L178.39,412.84 L185.31,412.80 L192.22,412.76 L199.14,412.71 L206.06,412.65 L212.98,412.58 L219.90,412.50 L226.82,412.41
 		L233.74,412.31 L240.65,412.19 L247.57,412.06 L254.49,411.91 L261.41,411.73 L268.33,411.53 L275.25,411.29 L282.16,411.02
@@ -164,7 +164,7 @@
 	</g>
 	<g id="gnuplot_plot_2" ><title>n!</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(173.82,399.30)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
+	<g transform="translate(232.55,399.30)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >n!</tspan></text>
 	</g>
 </g>
@@ -176,7 +176,7 @@
 	<use xlink:href='#gpPt3' transform='translate(358.27,402.62) scale(4.50)' color='rgb(  0, 158, 115)'/>
 	<use xlink:href='#gpPt3' transform='translate(427.45,359.49) scale(4.50)' color='rgb(  0, 158, 115)'/>
 	<use xlink:href='#gpPt3' transform='translate(496.64,89.95) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt3' transform='translate(203.49,395.40) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt3' transform='translate(262.22,395.40) scale(4.50)' color='rgb(  0, 158, 115)'/>
 </g>
 	</g>
 <g fill="none" color="#FFFFFF" stroke="rgb(  0, 158, 115)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -189,7 +189,7 @@
 	<path stroke='black'  d='M81.53,54.01 L81.53,413.40 L565.82,413.40 L565.82,54.01 L81.53,54.01 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(323.67,30.91)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" >Gamma function</tspan></text>
+		<text><tspan font-family="Arial" >lnGamma function</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">

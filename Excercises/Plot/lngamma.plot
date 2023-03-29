@@ -1,14 +1,14 @@
 set terminal svg background "white"
 set key bottom right
-set output "gamma.svg"
+set output "lngamma.svg"
 set xlabel "n"
-set ylabel "gamma(x)"
+set ylabel "Exp(lngamma(x))"
 set tics out
 set xzeroaxis
 set yzeroaxis
 set samples 800
 set key left 
-set title "Gamma function"
+set title "lnGamma function"
 plot [0:7][0:800] \
-    "gamma_calc.data" with lines title "Gamma(n+1)"\
+    "lngamma_calc.data" with lines title "Exp(lnGamma(n+1))"\
     , "factorials.data" using ($1):($2) with points pointtype 4 title "n!"\

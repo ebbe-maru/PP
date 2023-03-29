@@ -1,9 +1,14 @@
+DLLS = $(addprefix -reference:,$(filter %.dll,$^))
+CODE = $(filter %.cs,$^)
+DIR = $(HOME)/PP/matlib/matrix
 Out.txt   :   main.exe
 	mono main.exe > Out.txt
 
-#vec.dll: vec.cs
-#mcs vec.cs -target:library -out:vec.dll
+main.exe : main.cs QRGS.exe matrix.dll
+	mcs -t:exe $(DLLS) $(CODE)
 
-main.exe : main.cs #vec.dll
-	mcs main.cs -target:exe -out:main.exe
-#-reference:vec.dll vec.cs
+QRGS.exe: QRGS.cs matrix.dll
+	mcs -t:exe $(DLLS) $(CODE)
+
+matrix.dll: $(HOME)$(DIR)/matrix.cs $(DIR)/vector.cs
+	mcs -target:library -out:./matrix.dll $^
