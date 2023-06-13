@@ -111,6 +111,16 @@ public static vector operator% (matrix a, vector v){
 	return u;
 	}
 
+	public static matrix random(int n, int m, System.Random rnd){	
+		matrix A = new matrix(n,m);
+		for (int j = 0; j < n; j++){
+			for (int k = 0; k < m; k++){
+				A[j,k] = rnd.Next(10);
+			}
+		}
+		return A;
+	}
+
 public matrix(vector e) : this(e.size,e.size) { for(int i=0;i<e.size;i++)this[i,i]=e[i]; }
 
 public void set(int r, int c, double value){ this[r,c]=value; }
