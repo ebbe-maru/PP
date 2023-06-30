@@ -12,10 +12,9 @@ public class spfun {
     }
 
     public static double lnGamma (double x) {
-        if(x<9) return Log(Gamma(x));
-        
-        double lnGamma=x*Log(x+1/(12*x-1/x/10))-x+Log(2*PI/x)/2;
-        return lnGamma;
+        if(x<0) return double.NaN;
+        if(x<9) return lnGamma(x+1)-Log(x);
+        return x*Log(x+1/(12*x-1/x/10))-x+Log(2*PI/x)/2;
     }
     public static int Fac (int n) { 
         if (n <= 1 ) { 
