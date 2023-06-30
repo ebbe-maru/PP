@@ -1,0 +1,27 @@
+Implementation of the (modified) Newton's minimization method 
+where the Hessian matrix is computed numerically using a finite-difference approximation.
+Equation 48 from the chapter has been used.
+
+Minimum of 100*(x^2-x)+6: 
+Should be at: x = 0.5 
+Found at: x = 0.499999568038165 in 6 steps. (Guess at 20)
+Quasi-Newton method: x = 0.499999921087572 in 3 steps.
+
+Mimimum of the Himmelblaus function: f(x,y)=(x^2+y-11)^2+(x+y^2-7)^2
+One mimimum is at: x = 3 and y = 2
+Mimimum found at: x = 2.99999998946225 and y = 1.99999995650624 in 54510 steps. (Quess at (3.5, 2.5))
+Another mimimum can be found using different guess.
+Quasi-Newton method: x = 3.00000018209921 and y = 1.99999970965 in 31 steps. 
+
+
+Fitting Breit-Wigner function to the higgs data. Using guesses A=16, m=126, gamma=2:
+Fit concluded with parameters A = 9.87620905111033, m = 125.972186684066, Γ = 2.08632953172634
+Calculated in 28272 steps.
+Quasi-Newton method: A = 9.87475044009357, m = 125.97219205823, Γ = 2.08602028841696
+Calculated in 40410 steps. 
+
+The Fit is plotted in Higgs.svg.
+/nIf we compare the result from homework 09 (Quasi-Newton method),
+with the result gotten using this modefied version, they look quit similar.
+However, the Quasi-Newton method appears to take fewer steps.
+I am not sure if this is gennerally true or if it is because of my implimentation.

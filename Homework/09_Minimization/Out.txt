@@ -1,0 +1,19 @@
+Part A:
+Minimum of 100*(x^2-x)+6: 
+Should be at: x = 0.5 
+Found at: x = 0.499999859928989 in 2 steps. (Guess at 20.0) 
+
+Mimimum of the Rosenbroks Valley function: f(x,y)=(1-x)^2+100(y-x^2)^2:
+Should be at: x = 1 and y = 1
+Found at: x = 1.00004878786197 and y = 1.00009769212608 in 23790 steps. (Guess at (2, 2)) 
+
+Mimimum of the Himmelblaus function: f(x,y)=(x^2+y-11)^2+(x+y^2-7)^2
+One mimimum is at: x = 3 and y = 2
+Mimimum found at: x = 3.00000018209921 and y = 1.99999970965 in 30 steps. (Quess at (3.5, 2.5))
+Another mimimum can be found using different guess.
+
+Part B
+Fitting Breit-Wigner function to the higgs data. Using guesses A=16, m=126, gamma=2:
+Fit concluded with parameters A = 9.87475044009357, m = 125.97219205823, Γ = 2.08602028841696
+It arrived at these parameters in 40409 steps
+The Fit is plotted in Higgs.svg.

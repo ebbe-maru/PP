@@ -1,0 +1,24 @@
+A
+----------
+The indicative plot of the linear spline is in linspline.svg
+-----------------------------------------------------------
+B
+----------
+The three functions and its splines are plotted in qspline.svg
+A sin(x) function is plotted in sinB.svg with its quadratic spline, integral and derivative.
+The following are the results of calculating b and c for the three functions, using my quadratic spline. All are using c_1=0 and only with forward recursion:
+y=1
+i=1: expected c_1 = 0, calculated c_1 = 0, expected b_1 = 0, calculated b_1 = 0
+i=2: expected c_2 = 0, calculated c_2 = 0, expected b_2 = 0, calculated b_2 = 0
+i=3: expected c_3 = 0, calculated c_3 = 0, expected b_3 = 0, calculated b_3 = 0
+i=3: expected c_4 = 0, calculated c_4 = 0, expected b_4 = 0, calculated b_4 = 0
+y=x
+i=1: expected c_1 = 0, calculated c_1 = 0, expected b_1 = 1, calculated b_1 = 1
+i=2: expected c_2 = 0, calculated c_2 = 0, expected b_2 = 1, calculated b_2 = 1
+i=3: expected c_3 = 0, calculated c_3 = 0, expected b_3 = 1, calculated b_3 = 1
+i=4: expected c_4 = 0, calculated c_4 = 0, expected b_4 = 1, calculated b_4 = 1
+y=x^2
+i=1: expected c_1 = 1, calculated c_1 = 1, expected b_1 = 2, calculated b_1 = 2
+i=2: expected c_2 = 1, calculated c_2 = 1, expected b_2 = 4, calculated b_2 = 4
+i=3: expected c_3 = 1, calculated c_3 = 1, expected b_3 = 6, calculated b_3 = 6
+i=4: expected c_4 = 1, calculated c_4 = 1, expected b_4 = 8, calculated b_4 = 8

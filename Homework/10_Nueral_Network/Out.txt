@@ -1,0 +1,8 @@
+Part A
+Testing with 10 neurons...
+Done training in 55953 steps
+Interpolation can be seen in g.svg
+______________________
+Part B
+The first and second derivative along with the first antiderivative can be seen in dgdx.svg, d2gdx2.svg and intg.svg
+It only works for the Guassian wavelet activation function, as the analytical derivatives and antiderivatives needs to be calculated.

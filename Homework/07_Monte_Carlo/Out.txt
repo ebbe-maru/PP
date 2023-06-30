@@ -1,0 +1,11 @@
+Testing plain Monte Carlo integration
+Integral over r^2sin(theta) with r from 0 to 1 and theta from 0 to 2pi is calculated as: 0.676303445454971 +- 0.0232430378887005
+It should be 1/(2pi) * 4/3 * pi * 1^3 = 2/3 = 0.666666666666667
+
+Integral over 1-(cos(x)*cos(y)*cos(z))^-1 with x, y and z from 0 to PI is calculated as: 1.33819944526976 +- 0.0266305480375687
+It should be Gamma(1/4)^4 / (5*PI^3) = 1.3932039296856768591842462603255
+
+Testing Quasi Monte Carlo integration
+In error.svg the errors for pseudo and quasi integration of x^2*sin(Theta) from 0<=x<=1 and 0<=theta<=2PI.
+The same can be seen for the area of a unit circle in UnitError.svg.
+In UnitCircle.svg the calculated area of a unit circle are compared using psuedo and quasi-random monte-carlo integrator

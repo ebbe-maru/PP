@@ -1,0 +1,15 @@
+Best fit:
+y(t) = 141.338164625218*exp(-0.169887082001008*t) 
+
+The halflife:
+4.08004641904341 days, the known value of 224Ra: 3.631(2) days "Bé et al., 2004; DDEP, 2018" 
+
+The covarience matrix:
+    0.0223    -0.0256 
+  2.07e-18    0.00695 
+
+The uncertainties of the fitting coefficients:
+a = 4.9511553496486 ± 0.149298439469915
+lambda = -0.169887082001008 ± 0.0833671469717246
+The halflife with uncertainty: 4.08004641904341 ± 2.00216417553062 days
+Within uncertainty it agrees with the modern value.

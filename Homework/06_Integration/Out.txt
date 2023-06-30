@@ -1,0 +1,19 @@
+Testing of intregator:
+Integral from 0 to 1 of sqrt(x): should be equal to 2/3 | Calcucated: 0.666953909054655 in 7 evaluations.
+Integral from 0 to 1 of 1/sqrt(x): should be equal to 2 | Calculated: 1.99996150007805 in 4285 evaluations.
+Integral from 0 to 1 of 4*sqrt(1-x^2): should be equal to PI | Calculated: 3.14183457802727 in 13 evaluations.
+Integral from 0 to 1 of Ln(x)/sqrt(x): should be equal to -4 | Calculated: -3.99991705899915 in 4301 evaluations.
+In figure error_diff.svg we can see that the integral for erf is in general better than erf_aprrox. 
+The absolut and relative accuary are 1e-7 and 1e-6. For larger values, the integral erf might not be more accurate.
+
+Testing number of evalutation 
+
+Integral from 0 to 1 of 1/sqrt(x): should be equal to: 2
+Normal adaptive quadratures gives: 1.99996150007805 in 4285 evaluations
+Clenshaw-Curtis variable transformation gives: 1.99999201046432 in 7 evaluations
+
+Integral from 0 to 1 over 4*sqrt(1-x^2) should be equal to: -4
+Normal adaptive quadratures gives: -3.99991705899915 in 4301 evaluations
+Clenshaw-Curtis variable transformation gives: -3.99987385646141 in 47 evaluations
+
+Compared to python they find the results, with the same tolerance, in 231 and 315 evaluations respectivly

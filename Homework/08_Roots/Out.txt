@@ -1,0 +1,17 @@
+Test of Newton method of root finding:
+A simple linear equation is tested: f(x)=x+2
+The root should be: x = -2
+The root found: x = -2 
+
+The next test is of: f(x,y)=(4x+3y+6, x^2)
+The root should be: x = 0 and y = -2
+The root found: x = 0.0312500144432545 and y = -2.04166668532856 
+
+The extremum of the Rosenbrock's Valley function: f(x,y) = (1-x)^2 + 100*(y-x^2)^2
+Should be: (x=1, y=1)
+The roots of the gradient found is: x = 1.00000023332382 and y = 1.00000046405923
+
+Part B
+With the shooting method, the binding energy of lowest bound S-electron in H is found to be -0.499998400226305. Expected value is -0.5
+The corresponding wavefunction are plotted in Wavefunction.svg. It only differs from the analytical solution at the very end vere our solutions is defined to be 0.
+How r_max, r_min, absolute accuracy and relative accuracy relate to the error are plotted in rmax.svg, rmin.svg, absacc.svg and epsacc.svg
