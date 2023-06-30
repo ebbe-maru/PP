@@ -20,4 +20,5 @@ s_waves.svg: s_waves.plot s_waves.data
 
 
 clean:
-	rm --force Out.txt main.exe matrix.dll dr.data E_0.svg
+	rm --force Out.txt main.exe matrix.dll dr.data E_0.svg \
+	s_waves.svg s_waves.data rmax.data

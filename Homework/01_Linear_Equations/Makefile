@@ -10,3 +10,6 @@ main.exe : main.cs matrix.dll
 
 matrix.dll: matrix.cs vector.cs
 	mcs -target:library -out:./matrix.dll $^
+
+clean:
+	rm --force Out.txt main.exe matrix.dll\

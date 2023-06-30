@@ -5,9 +5,9 @@ using static System.Console;
 
 public static class jacobi{
 static void Main(){
-    //testcyclic();
-    //drVary();
-    //rmaxVary();
+    testcyclic();
+    drVary();
+    rmaxVary();
     s_waves();
 }
 
