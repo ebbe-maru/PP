@@ -21,7 +21,7 @@ Quasi-Newton method: A = 9.87475044009357, m = 125.97219205823, Γ = 2.086020288
 Calculated in 40410 steps. 
 
 The Fit is plotted in Higgs.svg.
-/nIf we compare the result from homework 09 (Quasi-Newton method),
-with the result gotten using this modefied version, they look quit similar.
-However, the Quasi-Newton method appears to take fewer steps.
-I am not sure if this is gennerally true or if it is because of my implimentation.
+If we compare the result from homework 09 (Quasi-Newton method) with the
+result gotten using this modified version, they look quit similar with no significant difference in preccision.
+However, the Quasi-Newton method takes fewer steps for the 2 function,
+and the modified takes fewer steps for fitting.
